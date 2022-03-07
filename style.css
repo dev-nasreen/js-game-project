@@ -1,0 +1,38 @@
+body {
+  background-color: cornflowerblue;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  width: 50vw;
+  height: 80vh;
+  background-color: wheat;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  width: 50%;
+}
+.luck-input {
+  width: 100%;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+.btn-div {
+  text-align: center;
+}
+span {
+  font-size: 35px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 50px;
+  color: blueviolet;
+}
