@@ -1,5 +1,5 @@
 body {
-  background-color: cornflowerblue;
+  background-image: url("p.jpg");
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -8,7 +8,8 @@ body {
 .box {
   width: 50vw;
   height: 80vh;
-  background-color: wheat;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
   padding: 20px;
   border-radius: 10px;
   margin: 100px auto;
