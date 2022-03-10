@@ -47,7 +47,7 @@ formElm.addEventListener("submit", function(e){
 })
 
 p1BtnElm.addEventListener("click", function(){
-    p1Value = Math.floor((Math.random() * 20) + 1);
+    p1Value = Math.floor((Math.random() * 10) );
     console.log(p1Value);
     p1InpElm.textContent = p1Value;
     // switch off p1turn and start p2turn
@@ -63,7 +63,7 @@ p1BtnElm.addEventListener("click", function(){
 
 })
 p2BtnElm.addEventListener("click", function(){
-    p2Value = Math.floor((Math.random() * 20) + 1);
+    p2Value = Math.floor((Math.random() * 10));
     p2InpElm.textContent = p2Value;
     // switch off p1turn and start p2turn
     p2Turn = false;
